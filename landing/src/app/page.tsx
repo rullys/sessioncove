@@ -68,30 +68,34 @@ export default function HomePage() {
                 </p>
               </div>
 
-      {/* Waitlist form (Tally embed) */}
-<div className="mt-6">
-  <iframe
-    data-tally-src="https://tally.so/embed/WOJr0L?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-    loading="lazy"
-    width="100%"
-    height={340} // fallback height; Tally will resize if script is loaded
-    frameBorder={0}
-    marginHeight={0}
-    marginWidth={0}
-    title="Session Cove early access"
-    className="rounded-2xl"
-  ></iframe>
-</div>
+              {/* Waitlist form (Tally embed) */}
+              <div className="mt-6 space-y-3">
+                <iframe
+                  data-tally-src="https://tally.so/embed/WOJr0L?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+                  loading="lazy"
+                  width="100%"
+                  height={340} // fallback height; Tally will resize if script is loaded
+                  frameBorder={0}
+                  marginHeight={0}
+                  marginWidth={0}
+                  title="Session Cove early access"
+                  className="rounded-2xl"
+                ></iframe>
 
+                <p className="text-[11px] leading-relaxed text-slate-300/80">
+                  Early access is free. No credit card required. Your details
+                  are used only for early access, product updates, and support —
+                  never for selling or sharing lists.
+                </p>
+              </div>
             </div>
           </section>
-
 
           {/* Who it's for */}
           <section className="space-y-4">
             <div className="space-y-2">
               <h2 className="text-base font-semibold text-slate-50 sm:text-lg">
-                Built for solo trainers and tutors who live in WhatsApp
+                Built for solo trainers and tutors who live on WhatsApp
               </h2>
               <p className="text-sm text-slate-300/90">
                 Session Cove focuses on people who manage clients in chats, not
@@ -102,7 +106,7 @@ export default function HomePage() {
             <div className="grid gap-4 sm:grid-cols-3">
               <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-4">
                 <h3 className="text-sm font-semibold text-slate-50">
-                  Personal trainers & coaches
+                  Personal trainers &amp; coaches
                 </h3>
                 <p className="mt-2 text-xs leading-relaxed text-slate-300/90">
                   Share a single booking link instead of juggling screenshots,
@@ -112,7 +116,7 @@ export default function HomePage() {
 
               <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-4">
                 <h3 className="text-sm font-semibold text-slate-50">
-                  Tutors & teachers
+                  Tutors &amp; teachers
                 </h3>
                 <p className="mt-2 text-xs leading-relaxed text-slate-300/90">
                   Keep lessons on schedule with WhatsApp confirmations and
@@ -165,8 +169,8 @@ export default function HomePage() {
                   Share your booking link
                 </h3>
                 <p className="mt-2 text-xs leading-relaxed text-slate-300/90">
-                  Send one link in WhatsApp, Instagram, or bio. Clients choose a
-                  slot in their own time.
+                  Send one link on WhatsApp, Instagram, or in your bio. Clients
+                  choose a slot in their own time.
                 </p>
               </div>
 
@@ -207,6 +211,33 @@ export default function HomePage() {
 
               <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-4 sm:p-5">
                 <h3 className="text-sm font-semibold text-slate-50">
+                  How much will Session Cove cost?
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-slate-300/90">
+                  During private beta, Session Cove is free for early access
+                  users. After launch, pricing will stay solo-friendly – closer
+                  to the price of one client session per month than a big studio
+                  system – with a free tier for light use and a single paid
+                  plan for heavier use. No contracts, cancel any time.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-4 sm:p-5">
+                <h3 className="text-sm font-semibold text-slate-50">
+                  What do early access users get?
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-slate-300/90">
+                  Early access users can try Session Cove for free during the
+                  private beta and help shape how it develops. Feedback from
+                  this group directly influences what gets built next. When
+                  paid plans launch, early access users will be offered a
+                  special founding member price for the Pro plan as a thank-you
+                  for helping improve Session Cove.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-4 sm:p-5">
+                <h3 className="text-sm font-semibold text-slate-50">
                   Will Session Cove work in my country?
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-slate-300/90">
@@ -232,7 +263,7 @@ export default function HomePage() {
               <p className="text-[11px] text-slate-400/90">
                 Session Cove respects inboxes and phone numbers. Contact details
                 are used only to manage early access, product communication, and
-                future booking features.
+                support – never for selling or sharing contact lists.
               </p>
             </div>
           </section>
